@@ -1,6 +1,6 @@
 const express= require(`express`);
 const router= express.Router();
-const libros= require(`../data`);
+const libros= require(`/data`);
 const Joi=require(`joi`);
 
 const schema= Joi.object({
