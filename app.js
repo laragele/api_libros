@@ -6,8 +6,8 @@ const express = require(`express`);
 const app=express();
 const port= 3000
 
-const librosRouters= require(`./routes/libros`);
-const errorHandler=require(`./middleware/errorHandler`);
+const librosRouters= require(`/libros`);
+const errorHandler=require(`/errorHandler`);
 
 app.use(express.json());
 
